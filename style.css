@@ -1,0 +1,144 @@
+body {
+
+    font-family: 'Poppins', sans-serif;
+    color: #4E4958;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 24px;
+    background: #BFD7E4;
+}
+
+body::before {
+    content: '';
+    width: 100%;
+    height: 465px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #293241;
+}
+
+
+.container {
+    width: 750px;
+    margin: auto;
+}
+
+form {
+    height: 1075px;
+    padding: 64px;
+    background: #fff;
+    border-radius: 0px 0px 20px 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #FFF;
+    font-family: Staatliches;
+    font-size: 36px;
+    font-style: normal;
+    line-height: normal;
+}
+
+p {
+    text-align: center;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+}
+
+h2 {
+    height: 133px;
+    border-radius: 20px 20px 0px 0px;
+    background: #F67669;
+    margin-bottom: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+}
+
+fieldset {
+    border: none;
+}
+
+.row {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 30px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+input {
+    width: 100%;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+    background: #FAFAFC;
+
+    padding-left: 8px;
+
+    margin-bottom: 30px;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+#mentor-feedback {
+    height: 166.586px;
+}
+
+hr {
+    width: 622px;
+    height: 1px;
+    background: #E6E6F0;
+    margin-bottom: 64px;
+
+    border: none;
+}
+
+legend {
+    color: #253B51;
+    font-family: Staatliches;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 34px;
+
+    text-align: center;
+}
+
+button {
+    display: flex;
+    width: 622px;
+    height: 51px;
+    padding: 15px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 8px;
+    background: #F67669;
+
+    border: none;
+
+    color: #FFF;
+    font-family: Staatliches;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 26px;
+
+
+}
